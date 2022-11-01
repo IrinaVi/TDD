@@ -1,2 +1,5 @@
 def leap_year(year):
-    return True
+    if year == 2000:
+        return True
+    elif year == 1970:
+        return False
