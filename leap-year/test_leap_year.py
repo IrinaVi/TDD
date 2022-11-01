@@ -7,6 +7,7 @@ class TestStringMethods(unittest.TestCase):
         self.assertTrue(leap_year(2000))
         self.assertFalse(leap_year(1970))
         self.assertTrue(leap_year(1988))
+        self.assertFalse(leap_year(1500))
 
 if __name__ == '__main__':
     unittest.main()
