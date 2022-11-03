@@ -7,6 +7,7 @@ class TestConverter(unittest.TestCase):
         self.assertEqual(converter([60]),[60])
         self.assertEqual(converter([60, 100]), [60, 100])
         self.assertEqual(converter([30]),[40])
+        self.assertEqual(converter([1500]), [1000])
 
 
 
