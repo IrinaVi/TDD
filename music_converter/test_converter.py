@@ -5,6 +5,7 @@ class TestConverter(unittest.TestCase):
 
     def test(self):
         self.assertEqual(converter([60]),[60])
+        self.assertEqual(converter([60, 100]), [60, 100])
 
 
 
