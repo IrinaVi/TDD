@@ -14,6 +14,10 @@ class TestConverter(unittest.TestCase):
         self.assertEqual(converter([60,10,45,60,1500],5), [60,10,45,60,1000])
         self.assertEqual(converter([60,10,45,60,1500],20,50), [50,20,45,50,50])
 
+    def test_edge_cases(self):
+        with self.assertRaises(ValueError):
+            converter([])
+
 
 
 if __name__ == '__main__':
