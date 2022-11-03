@@ -9,7 +9,7 @@ value goes
 lower - 40
 upper limit - 1000 - if a user provides these limits, then you need to overrite
 
-Input: Sound wave - collection of frequencies - array 
+Input: Soun wave - collection of frequencies - array 
 
 input - [60,10,45,60,1500]
 output - [60,40,45,60,1000]
