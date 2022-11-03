@@ -12,6 +12,7 @@ class TestConverter(unittest.TestCase):
 
     def test_with_user_inputted_upper_lower_limits(self):
         self.assertEqual(converter([60,10,45,60,1500],5), [60,10,45,60,1000])
+        self.assertEqual(converter([60,10,45,60,1500],20,50), [50,20,45,50,50])
 
 
 
